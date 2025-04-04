@@ -63,11 +63,14 @@ const Header = () => {
           <Link href="/Rental" onClick={toggleMenu}>
             Rental
           </Link>
-          <Link href="/services" onClick={toggleMenu}>
+          <Link href="/Service" onClick={toggleMenu}>
             Services
           </Link>
-          <Link href="/contact" onClick={toggleMenu}>
+          <Link href="/Contact" onClick={toggleMenu}>
             Contact Us
+          </Link>
+          <Link href="/Booking" onClick={toggleMenu}>
+            Book a Meeting
           </Link>
         </nav>
       </div>
